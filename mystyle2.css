@@ -1,0 +1,50 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#header,#footer{
+	height: 80px;
+	background-image:linear-gradient(50deg,brown,black,darkred);
+	border-radius: 10px ;
+}
+
+#subheader{
+	height: 80px;
+	background-color: brown;
+	opacity: 0.4;
+}
+
+#nav{
+	padding: 25px;
+	text-align: center;
+	margin-left: 25px;
+	
+
+}
+
+#nav ul li{
+display: inline-block;
+background-color: brown;
+height: 30px;
+width: 100px;
+border:2px ridge transparent;
+
+}
+
+li>a{
+	text-decoration: none;
+	line-height: 30px;
+	color: ghostwhite;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-family: serif;
+}
+.navbar-brand{
+	margin-bottom: 30px; 
+	line-height: 30px;
+
+}
+
+
